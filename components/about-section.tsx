@@ -1,7 +1,7 @@
-import { Rocket, Cpu, Headphones } from "lucide-react"
+import { Rocket, Cpu, Headphones, Handshake } from "lucide-react"
 import { about } from "@/lib/data"
 
-const icons = [Rocket, Cpu, Headphones]
+const icons = [Rocket, Cpu, Headphones, Handshake]
 
 export function AboutSection() {
   return (
@@ -11,7 +11,7 @@ export function AboutSection() {
           {about.title}
         </h2>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {about.points.map((point, i) => {
             const Icon = icons[i % icons.length]
             return (

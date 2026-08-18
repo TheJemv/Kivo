@@ -39,7 +39,7 @@ export function TechTrust() {
               alt={logo.name}
               width={96}
               height={28}
-              className="h-6 w-auto opacity-40 grayscale transition-opacity hover:opacity-70"
+              className="tech-logo h-6 w-auto"
             />
           ))}
         </div>

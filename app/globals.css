@@ -93,23 +93,23 @@
 
 .dark {
   color-scheme: dark;
-  --background: #111827;
-  --foreground: #F9FAFB;
-  --card: #1F2937;
-  --card-foreground: #F9FAFB;
-  --popover: #1F2937;
-  --popover-foreground: #F9FAFB;
+  --background: #18181B;
+  --foreground: #FAFAFA;
+  --card: #27272A;
+  --card-foreground: #FAFAFA;
+  --popover: #27272A;
+  --popover-foreground: #FAFAFA;
   --primary: #4F46E5;
   --primary-foreground: #FFFFFF;
-  --secondary: #1F2937;
-  --secondary-foreground: #F9FAFB;
-  --muted: #1F2937;
-  --muted-foreground: #D1D5DB;
-  --accent: #1F2937;
+  --secondary: #27272A;
+  --secondary-foreground: #FAFAFA;
+  --muted: #27272A;
+  --muted-foreground: #D4D4D8;
+  --accent: #27272A;
   --accent-foreground: #818CF8;
   --destructive: #F87171;
-  --border: #374151;
-  --input: #374151;
+  --border: #3F3F46;
+  --input: #3F3F46;
   --ring: #4F46E5;
   --success: #22C55E;
   --warning: #FBBF24;
@@ -133,23 +133,23 @@
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
     color-scheme: dark;
-    --background: #111827;
-    --foreground: #F9FAFB;
-    --card: #1F2937;
-    --card-foreground: #F9FAFB;
-    --popover: #1F2937;
-    --popover-foreground: #F9FAFB;
+    --background: #18181B;
+    --foreground: #FAFAFA;
+    --card: #27272A;
+    --card-foreground: #FAFAFA;
+    --popover: #27272A;
+    --popover-foreground: #FAFAFA;
     --primary: #4F46E5;
     --primary-foreground: #FFFFFF;
-    --secondary: #1F2937;
-    --secondary-foreground: #F9FAFB;
-    --muted: #1F2937;
-    --muted-foreground: #D1D5DB;
-    --accent: #1F2937;
+    --secondary: #27272A;
+    --secondary-foreground: #FAFAFA;
+    --muted: #27272A;
+    --muted-foreground: #D4D4D8;
+    --accent: #27272A;
     --accent-foreground: #818CF8;
     --destructive: #F87171;
-    --border: #374151;
-    --input: #374151;
+    --border: #3F3F46;
+    --input: #3F3F46;
     --ring: #4F46E5;
     --success: #22C55E;
     --warning: #FBBF24;
@@ -177,5 +177,35 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.tech-logo {
+  filter: grayscale(1) opacity(45%);
+  transition: filter 0.2s ease;
+}
+.tech-logo:hover {
+  filter: grayscale(1) opacity(75%);
+}
+
+.dark .tech-logo {
+  filter: grayscale(1) invert(1) opacity(55%);
+}
+.dark .tech-logo:hover {
+  filter: grayscale(1) invert(1) opacity(85%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) .tech-logo {
+    filter: grayscale(1) invert(1) opacity(55%);
+  }
+  :root:not(.light) .tech-logo:hover {
+    filter: grayscale(1) invert(1) opacity(85%);
   }
 }

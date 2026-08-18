@@ -1,3 +1,4 @@
+import { Globe } from "lucide-react"
 import { packages, pricing } from "@/lib/data"
 import { PricingCard } from "./pricing-card"
 
@@ -17,6 +18,11 @@ export function PricingSection() {
           {packages.map((pkg) => (
             <PricingCard key={pkg.id} pkg={pkg} />
           ))}
+        </div>
+
+        <div className="mx-auto mt-8 flex max-w-2xl items-start gap-3 rounded-xl border border-border bg-secondary/40 px-5 py-4 text-sm text-muted-foreground">
+          <Globe className="mt-0.5 size-4 shrink-0 text-primary" />
+          <p className="text-pretty">{pricing.domainNote}</p>
         </div>
       </div>
     </section>

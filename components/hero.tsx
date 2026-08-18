@@ -5,7 +5,7 @@ import { WhatsAppIcon } from "./whatsapp-icon"
 
 const badges = [
   { icon: Zap, label: "Carga rápida" },
-  { icon: Clock, label: "Entrega en días" },
+  { icon: Clock, label: "Entrega en semanas" },
   { icon: ShieldCheck, label: "Hosting confiable" },
 ]
 
