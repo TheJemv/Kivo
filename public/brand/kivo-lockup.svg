@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 120" width="340" height="120">
+  <!-- Symbol -->
+  <svg x="0" y="0" width="120" height="120" viewBox="0 0 1024 1024">
+    <path
+      d="M270 676C322 604 379 519 444 415L533 274
+         C553 242 596 232 628 252C660 272 670 315 650 347
+         L563 486C499 589 444 673 395 742
+         C372 775 327 783 295 760C262 737 247 708 270 676Z"
+      fill="#4F46E5"/>
+    <path
+      d="M498 695C542 635 588 568 638 492L697 401
+         C718 369 760 360 792 381C824 402 833 444 812 476
+         L754 565C706 639 662 703 622 759
+         C600 791 555 799 523 776C492 754 476 726 498 695Z"
+      fill="#3730A3"/>
+  </svg>
+  <!-- Wordmark: Inter ExtraBold (800), letter-spacing 0 -->
+  <text x="148" y="82" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="64" letter-spacing="0" fill="#111827">Kivo</text>
+</svg>

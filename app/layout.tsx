@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
 
 export const metadata: Metadata = {
-  title: 'NorteWeb — Páginas web rápidas y modernas para negocios locales',
+  title: 'Kivo — Páginas web rápidas y modernas para negocios locales',
   description:
     'Diseño moderno, carga rápida y hosting confiable. Páginas web que venden para negocios locales en México. Entrega en días, no en meses.',
   generator: 'v0.app',
