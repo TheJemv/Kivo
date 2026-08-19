@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Kivo — Fast, modern websites for local businesses",
+    "description": "Modern design, fast loading, and reliable hosting. Websites that sell for local businesses in Mexico. Delivered in days, not months."
+  },
+  "brand": {
+    "tagline": "Fast, modern websites for local businesses"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hi, I saw your page and I'd like info about my web project 🚀"
+  },
+  "nav": {
+    "links": {
+      "precios": "Pricing",
+      "servicios": "Services",
+      "beneficios": "Benefits",
+      "testimonios": "Testimonials"
+    },
+    "whatsapp": "WhatsApp",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageLabel": "Language"
+  },
+  "hero": {
+    "badges": ["Fast loading", "Delivered in weeks", "Reliable hosting"],
+    "title": "Your business needs a website that sells",
+    "subtitle": "Modern design, fast loading, and reliable hosting. Your site built together with you, not from a generic template.",
+    "cta": "Talk to me on WhatsApp"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "heading": "Clear plans for every kind of business",
+    "note": "All prices include tax.",
+    "domainNote": "Your domain (e.g. yourbusiness.com) is purchased separately with the provider of your choice. We'll guide you through the whole purchase and setup process at no extra cost.",
+    "popularBadge": "Most popular",
+    "freeLabel": "Free",
+    "defaultCta": "Get started on WhatsApp",
+    "whatsappMessage": "Hi, I'm interested in the \"{name}\" package. Can you tell me more? 🚀",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "billing": "one-time payment, tax included",
+        "description": "Ideal for businesses that need a fast, effective online presence.",
+        "features": [
+          "1 page (single scroll)",
+          "Responsive design (mobile & desktop)",
+          "Direct WhatsApp button",
+          "Simple contact form",
+          "Delivered in 1-2 weeks"
+        ]
+      },
+      "sitio-5": {
+        "name": "5-Page Website",
+        "billing": "one-time payment, tax included",
+        "description": "For businesses that want to show it all: services, story, and contact.",
+        "features": [
+          "Home, About, Services, Gallery/Blog, Contact",
+          "Responsive design",
+          "Basic SEO (titles, descriptions)",
+          "Social media integration",
+          "Delivered in 2-4 weeks"
+        ]
+      },
+      "hosting": {
+        "name": "Monthly Hosting",
+        "billing": "per month, tax included",
+        "description": "Your site always online, secure, up to date, with maintenance included.",
+        "features": [
+          "Hosting on our own server (high availability)",
+          "SSL certificate included",
+          "Domain connected",
+          "Maintenance and updates included",
+          "Monthly backup",
+          "Direct support via WhatsApp"
+        ]
+      },
+      "cita": {
+        "name": "Book a Call",
+        "billing": "free consultation",
+        "description": "Have a bigger project or a different idea in mind? Let's talk.",
+        "features": [
+          "20-minute call",
+          "Project assessment",
+          "Personalized quote",
+          "No cost, no commitment"
+        ],
+        "ctaOverride": "Book a call on WhatsApp"
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "heading": "What's included in the service?",
+    "subtitle": "Everything we do for you, from start to finish, so your website is ready and running.",
+    "items": {
+      "palette": {
+        "title": "Design and development",
+        "text": "Design tailored to your business, responsive and optimized to turn visitors into customers."
+      },
+      "globe": {
+        "title": "Domain and hosting",
+        "text": "We set up your hosting and SSL. The domain is purchased separately, but we guide you through the whole purchase and setup process."
+      },
+      "gauge": {
+        "title": "Speed and basic SEO",
+        "text": "Optimized images, fast loading, and good SEO practices so people can find you on Google."
+      },
+      "share2": {
+        "title": "Integrations",
+        "text": "WhatsApp button, social media, and contact forms connected and ready to use."
+      },
+      "wrench": {
+        "title": "Maintenance",
+        "text": "Updates, regular backups, and direct support with me whenever you need it."
+      },
+      "rocket": {
+        "title": "Hands-on process",
+        "text": "We go from idea to published site reviewing every section together with you, with support at every step."
+      }
+    }
+  },
+  "about": {
+    "heading": "Why work with me?",
+    "points": {
+      "delivery": { "title": "Realistic delivery", "text": "Sites ready in weeks, with real time to do it right." },
+      "tech": { "title": "Modern technology", "text": "Next.js, our own hosting, no third-party dependency." },
+      "support": { "title": "Real support", "text": "Direct contact with me, no tickets, no waiting." },
+      "handmade": {
+        "title": "Built with you, not on autopilot",
+        "text": "We talk through your idea, adjust the design together, and review every section before publishing. That's why it takes weeks: it's not a template thrown together, it's your site made by hand."
+      }
+    }
+  },
+  "techStack": {
+    "heading": "Technology you can trust",
+    "items": {
+      "zap": { "title": "Fast loading", "text": "Your page opens in seconds, without keeping your customers waiting." },
+      "shield-check": { "title": "Always online", "text": "Your site runs 24/7, with no downtime or interruptions." },
+      "lock": { "title": "Protected data", "text": "Secure connection and backups to keep your information safe." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "heading": "What my clients say",
+    "comingSoonTitle": "Coming soon",
+    "comingSoonText": "I'm working on the first projects. Real testimonials from local businesses will show up here soon.",
+    "items": {}
+  },
+  "cta": {
+    "heading": "Ready for a website that works for you?",
+    "text": "Book a free 20-minute consultation. No cost, no commitment: we'll talk through your idea and I'll give you a personalized quote.",
+    "button": "Book your free consultation",
+    "whatsappMessage": "Hi, I'd like to book a free consultation for my web project 🚀"
+  },
+  "floatingWhatsapp": {
+    "ariaLabel": "Message me on WhatsApp"
+  },
+  "footer": {
+    "copyrightSuffix": "All rights reserved.",
+    "contactWhatsapp": "WhatsApp",
+    "contactEmail": "Email"
+  }
+}

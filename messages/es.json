@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Kivo — Páginas web rápidas y modernas para negocios locales",
+    "description": "Diseño moderno, carga rápida y hosting confiable. Páginas web que venden para negocios locales en México. Entrega en días, no en meses."
+  },
+  "brand": {
+    "tagline": "Páginas web rápidas y modernas para negocios locales"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola, vi tu página y quiero información sobre mi proyecto web 🚀"
+  },
+  "nav": {
+    "links": {
+      "precios": "Precios",
+      "servicios": "Servicios",
+      "beneficios": "Beneficios",
+      "testimonios": "Testimonios"
+    },
+    "whatsapp": "WhatsApp",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "languageLabel": "Idioma"
+  },
+  "hero": {
+    "badges": ["Carga rápida", "Entrega en semanas", "Hosting confiable"],
+    "title": "Tu negocio necesita una página web que venda",
+    "subtitle": "Diseño moderno, carga rápida y hosting confiable. Tu sitio armado contigo, no con una plantilla genérica.",
+    "cta": "Habla conmigo por WhatsApp"
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "heading": "Planes claros para cada tipo de negocio",
+    "note": "Todos los precios incluyen IVA.",
+    "domainNote": "El dominio (por ejemplo, tunegocio.com) se compra por separado con el proveedor que prefieras. Nosotros te asesoramos en todo el proceso de compra y conexión, sin costo extra.",
+    "popularBadge": "Más popular",
+    "freeLabel": "Gratis",
+    "defaultCta": "Contratar por WhatsApp",
+    "whatsappMessage": "Hola, me interesa el paquete \"{name}\". ¿Me das más información? 🚀",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "billing": "pago único, IVA incluido",
+        "description": "Ideal para negocios que necesitan presencia en línea rápida y efectiva.",
+        "features": [
+          "1 página (scroll único)",
+          "Diseño responsive (móvil y escritorio)",
+          "Botón directo a WhatsApp",
+          "Formulario de contacto simple",
+          "Entrega en 1-2 semanas"
+        ]
+      },
+      "sitio-5": {
+        "name": "Sitio Web de 5 Páginas",
+        "billing": "pago único, IVA incluido",
+        "description": "Para negocios que quieren mostrar todo: servicios, historia y contacto.",
+        "features": [
+          "Inicio, Nosotros, Servicios, Galería/Blog, Contacto",
+          "Diseño responsive",
+          "SEO básico (títulos, descripciones)",
+          "Integración con redes sociales",
+          "Entrega en 2-4 semanas"
+        ]
+      },
+      "hosting": {
+        "name": "Hosting Mensual",
+        "billing": "por mes, IVA incluido",
+        "description": "Tu sitio siempre en línea, seguro, actualizado y con mantenimiento incluido.",
+        "features": [
+          "Hosting en servidor propio (alta disponibilidad)",
+          "Certificado SSL incluido",
+          "Dominio conectado",
+          "Mantenimiento y actualizaciones incluidas",
+          "Respaldo mensual",
+          "Soporte directo por WhatsApp"
+        ]
+      },
+      "cita": {
+        "name": "Agenda una Cita",
+        "billing": "consulta gratuita",
+        "description": "¿Tienes un proyecto más grande o una idea distinta? Hablemos.",
+        "features": [
+          "Llamada de 20 minutos",
+          "Diagnóstico de tu proyecto",
+          "Cotización personalizada",
+          "Sin costo ni compromiso"
+        ],
+        "ctaOverride": "Agendar por WhatsApp"
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "heading": "¿Qué incluye el servicio?",
+    "subtitle": "Todo lo que hacemos por ti, de principio a fin, para que tu página web esté lista y funcionando.",
+    "items": {
+      "palette": {
+        "title": "Diseño y desarrollo",
+        "text": "Diseño a la medida de tu negocio, responsive y optimizado para convertir visitas en clientes."
+      },
+      "globe": {
+        "title": "Dominio y hosting",
+        "text": "Configuramos tu hosting y SSL. El dominio se compra aparte, pero te asesoramos en todo el proceso de compra y conexión."
+      },
+      "gauge": {
+        "title": "Velocidad y SEO básico",
+        "text": "Imágenes optimizadas, carga rápida y buenas prácticas de SEO para que te encuentren en Google."
+      },
+      "share2": {
+        "title": "Integraciones",
+        "text": "Botón de WhatsApp, redes sociales y formularios de contacto conectados y listos para usarse."
+      },
+      "wrench": {
+        "title": "Mantenimiento",
+        "text": "Actualizaciones, respaldos periódicos y soporte directo conmigo cuando lo necesites."
+      },
+      "rocket": {
+        "title": "Proceso cercano",
+        "text": "Vamos de la idea al sitio publicado revisando cada sección contigo, con acompañamiento en cada paso."
+      }
+    }
+  },
+  "about": {
+    "heading": "¿Por qué trabajar conmigo?",
+    "points": {
+      "delivery": { "title": "Entrega realista", "text": "Sitios listos en semanas, con tiempo real para hacerlo bien." },
+      "tech": { "title": "Tecnología moderna", "text": "Next.js, hosting propio, sin depender de terceros." },
+      "support": { "title": "Soporte real", "text": "Contacto directo conmigo, sin tickets ni esperas." },
+      "handmade": {
+        "title": "Hecho contigo, no en automático",
+        "text": "Platicamos tu idea, ajustamos el diseño contigo y revisamos cada sección antes de publicarla. Por eso los tiempos son de semanas: no es una plantilla armada sola, es tu sitio hecho a mano."
+      }
+    }
+  },
+  "techStack": {
+    "heading": "Tecnología en la que puedes confiar",
+    "items": {
+      "zap": { "title": "Carga rápida", "text": "Tu página abre en segundos, sin hacer esperar a tus clientes." },
+      "shield-check": { "title": "Siempre en línea", "text": "Tu sitio funciona 24/7, sin caídas ni interrupciones." },
+      "lock": { "title": "Datos protegidos", "text": "Conexión segura y respaldos para que tu información esté a salvo." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "heading": "Lo que dicen mis clientes",
+    "comingSoonTitle": "Próximamente",
+    "comingSoonText": "Estoy trabajando en los primeros proyectos. Muy pronto verás aquí testimonios reales de negocios locales.",
+    "items": {}
+  },
+  "cta": {
+    "heading": "¿Listo para tener una página web que trabaje por ti?",
+    "text": "Agenda una consulta gratuita de 20 minutos. Sin costo ni compromiso: platicamos tu idea y te doy una cotización personalizada.",
+    "button": "Agenda tu consulta gratis",
+    "whatsappMessage": "Hola, quiero agendar una consulta gratuita para mi proyecto web 🚀"
+  },
+  "floatingWhatsapp": {
+    "ariaLabel": "Escríbeme por WhatsApp"
+  },
+  "footer": {
+    "copyrightSuffix": "Todos los derechos reservados.",
+    "contactWhatsapp": "WhatsApp",
+    "contactEmail": "Correo"
+  }
+}

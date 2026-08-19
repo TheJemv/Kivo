@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server"
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { PricingSection } from "@/components/pricing-section"
@@ -9,7 +10,14 @@ import { TechTrust } from "@/components/tech-trust"
 import { Footer } from "@/components/footer"
 import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 
-export default function Page() {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
   return (
     <>
       <Navbar />

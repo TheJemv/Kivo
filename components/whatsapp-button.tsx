@@ -1,4 +1,5 @@
 import type { ReactNode } from "react"
+import { useTranslations } from "next-intl"
 import { cn } from "@/lib/utils"
 import { whatsappLink } from "@/lib/site"
 
@@ -30,9 +31,11 @@ export function WhatsAppButton({
   size?: Size
   className?: string
 }) {
+  const t = useTranslations("whatsapp")
+
   return (
     <a
-      href={whatsappLink(message)}
+      href={whatsappLink(message ?? t("defaultMessage"))}
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
