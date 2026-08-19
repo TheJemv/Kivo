@@ -19,7 +19,9 @@
     "whatsapp": "WhatsApp",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
-    "languageLabel": "Idioma"
+    "languageLabel": "Idioma",
+    "lightMode": "Cambiar a modo claro",
+    "darkMode": "Cambiar a modo oscuro"
   },
   "hero": {
     "badges": ["Carga rápida", "Entrega en semanas", "Hosting confiable"],

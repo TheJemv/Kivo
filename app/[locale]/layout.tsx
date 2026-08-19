@@ -73,8 +73,11 @@ export default async function RootLayout({
   setRequestLocale(locale)
 
   return (
-    <html lang={locale} className={`${inter.variable} ${manrope.variable} bg-background`}>
+    <html lang={locale} className={`${inter.variable} ${manrope.variable} bg-background`} suppressHydrationWarning>
       <body className="font-sans antialiased">
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`(function(){try{var t=localStorage.getItem('theme');var r=document.documentElement;if(t==='dark'){r.classList.add('dark')}else if(t==='light'){r.classList.add('light')}}catch(e){}})();`}
+        </Script>
         <NextIntlClientProvider>
           {children}
           {process.env.NODE_ENV === 'production' && (

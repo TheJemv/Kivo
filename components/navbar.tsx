@@ -10,6 +10,7 @@ import { Link, usePathname } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
 import { WhatsAppButton } from "./whatsapp-button"
 import { WhatsAppIcon } from "./whatsapp-icon"
+import { ThemeToggle } from "./theme-toggle"
 
 const localeLabels: Record<string, string> = { es: "Español", en: "English" }
 
@@ -154,6 +155,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
+          <ThemeToggle className="hidden md:inline-flex" />
           <LanguageSwitcher className="hidden md:block" />
 
           <button
@@ -185,7 +187,10 @@ export function Navbar() {
               {t(`links.${id}`)}
             </a>
           ))}
-          <LanguageSwitcher variant="inline" className="mt-2 px-3" onNavigate={() => setOpen(false)} />
+          <div className="mt-2 flex items-start gap-2 px-3">
+            <LanguageSwitcher variant="inline" onNavigate={() => setOpen(false)} />
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </header>
