@@ -64,7 +64,6 @@
    "howItWorks": {
       "eyebrow": "Cómo funciona",
       "heading": "De tu repositorio a producción en 3 pasos",
-      "note": "¿Tu dominio está en Cloudflare? Podemos publicar tu proyecto con Cloudflare Tunnel, sin abrir puertos.",
       "steps": {
          "connect": {
             "title": "Conecta tu repositorio de GitHub",

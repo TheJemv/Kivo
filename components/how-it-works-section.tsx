@@ -1,4 +1,4 @@
-import { GitBranch, Settings2, Rocket, CloudCog } from 'lucide-react';
+import { GitBranch, Settings2, Rocket } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { howItWorksStepIds } from '@/lib/data';
 
@@ -44,11 +44,6 @@ export function HowItWorksSection() {
                   );
                })}
             </ol>
-
-            <div className="mx-auto mt-10 flex max-w-2xl items-start gap-3 rounded-xl border border-border bg-card px-5 py-4 text-sm text-muted-foreground">
-               <CloudCog className="mt-0.5 size-4 shrink-0 text-primary" />
-               <p className="text-pretty">{t('note')}</p>
-            </div>
          </div>
       </section>
    );
