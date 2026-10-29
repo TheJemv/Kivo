@@ -1,165 +1,302 @@
 {
-  "meta": {
-    "title": "Kivo — Páginas web rápidas y modernas para negocios locales",
-    "description": "Diseño moderno, carga rápida y hosting confiable. Páginas web que venden para negocios locales en México. Entrega en días, no en meses."
-  },
-  "brand": {
-    "tagline": "Páginas web rápidas y modernas para negocios locales"
-  },
-  "whatsapp": {
-    "defaultMessage": "Hola, vi tu página y quiero información sobre mi proyecto web 🚀"
-  },
-  "nav": {
-    "links": {
-      "precios": "Precios",
-      "servicios": "Servicios",
-      "beneficios": "Beneficios",
-      "testimonios": "Testimonios"
-    },
-    "whatsapp": "WhatsApp",
-    "openMenu": "Abrir menú",
-    "closeMenu": "Cerrar menú",
-    "languageLabel": "Idioma",
-    "lightMode": "Cambiar a modo claro",
-    "darkMode": "Cambiar a modo oscuro"
-  },
-  "hero": {
-    "badges": ["Carga rápida", "Entrega en semanas", "Hosting confiable"],
-    "title": "Tu negocio necesita una página web que venda",
-    "subtitle": "Diseño moderno, carga rápida y hosting confiable. Tu sitio armado contigo, no con una plantilla genérica.",
-    "cta": "Habla conmigo por WhatsApp"
-  },
-  "pricing": {
-    "eyebrow": "Precios",
-    "heading": "Planes claros para cada tipo de negocio",
-    "note": "Todos los precios incluyen IVA.",
-    "domainNote": "El dominio (por ejemplo, tunegocio.com) se compra por separado con el proveedor que prefieras. Nosotros te asesoramos en todo el proceso de compra y conexión, sin costo extra.",
-    "popularBadge": "Más popular",
-    "freeLabel": "Gratis",
-    "defaultCta": "Contratar por WhatsApp",
-    "whatsappMessage": "Hola, me interesa el paquete \"{name}\". ¿Me das más información? 🚀",
-    "packages": {
-      "landing": {
-        "name": "Landing Page",
-        "billing": "pago único, IVA incluido",
-        "description": "Ideal para negocios que necesitan presencia en línea rápida y efectiva.",
-        "features": [
-          "1 página (scroll único)",
-          "Diseño responsive (móvil y escritorio)",
-          "Botón directo a WhatsApp",
-          "Formulario de contacto simple",
-          "Entrega en 1-2 semanas"
-        ]
+   "meta": {
+      "title": "Kivo — Hosting para sitios web y bases de datos en México, con factura",
+      "description": "Hostea tus sitios, aplicaciones y bases de datos PostgreSQL con deploy automático desde GitHub, respaldos diarios, cobro en pesos y factura CFDI."
+   },
+   "brand": {
+      "tagline": "Hosting para sitios y bases de datos, con factura y soporte en español"
+   },
+   "whatsapp": {
+      "defaultMessage": "Hola, quiero más información sobre el hosting de Kivo 🚀"
+   },
+   "nav": {
+      "links": {
+         "hosting": "Hosting",
+         "precios": "Precios",
+         "como-funciona": "Cómo funciona",
+         "revendedores": "Revendedores",
+         "preguntas": "Preguntas",
+         "diseno-web": "Diseño web"
       },
-      "sitio-5": {
-        "name": "Sitio Web de 5 Páginas",
-        "billing": "pago único, IVA incluido",
-        "description": "Para negocios que quieren mostrar todo: servicios, historia y contacto.",
-        "features": [
-          "Inicio, Nosotros, Servicios, Galería/Blog, Contacto",
-          "Diseño responsive",
-          "SEO básico (títulos, descripciones)",
-          "Integración con redes sociales",
-          "Entrega en 2-4 semanas"
-        ]
-      },
-      "hosting": {
-        "name": "Hosting Mensual",
-        "billing": "por mes, IVA incluido",
-        "description": "Tu sitio siempre en línea, seguro, actualizado y con mantenimiento incluido.",
-        "features": [
-          "Hosting en servidor propio (alta disponibilidad)",
-          "Certificado SSL incluido",
-          "Dominio conectado",
-          "Mantenimiento y actualizaciones incluidas",
-          "Respaldo mensual",
-          "Soporte directo por WhatsApp"
-        ]
-      },
-      "cita": {
-        "name": "Agenda una Cita",
-        "billing": "consulta gratuita",
-        "description": "¿Tienes un proyecto más grande o una idea distinta? Hablemos.",
-        "features": [
-          "Llamada de 20 minutos",
-          "Diagnóstico de tu proyecto",
-          "Cotización personalizada",
-          "Sin costo ni compromiso"
-        ],
-        "ctaOverride": "Agendar por WhatsApp"
+      "discordCta": "Únete al Discord",
+      "whatsappCta": "WhatsApp",
+      "openMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú",
+      "languageLabel": "Idioma",
+      "lightMode": "Cambiar a modo claro",
+      "darkMode": "Cambiar a modo oscuro"
+   },
+   "hero": {
+      "badges": [
+         "Deploy automático desde GitHub",
+         "Respaldos diarios",
+         "Factura CFDI 4.0",
+         "Soporte en español"
+      ],
+      "title": "Hostea tus sitios y bases de datos sin pelearte con servidores",
+      "subtitle": "Haz push a GitHub y tu proyecto se publica solo. Bases de datos con respaldo diario, SSL incluido, cobro en pesos y factura CFDI.",
+      "ctaDev": "Soy desarrollador",
+      "ctaBusiness": "Tengo un negocio"
+   },
+   "hostingTypes": {
+      "eyebrow": "Qué puedes hostear",
+      "heading": "Hostea lo que estés construyendo",
+      "subtitle": "De un sitio estático a un stack completo con base de datos: tú elijes qué necesitas.",
+      "items": {
+         "sites": {
+            "title": "Sitios web",
+            "text": "Landing pages, portafolios y sitios estáticos (HTML, Astro, Next.js)."
+         },
+         "apps": {
+            "title": "Aplicaciones",
+            "text": "Next.js, Node, Bun, Laravel, Python o cualquier proyecto con Dockerfile."
+         },
+         "database": {
+            "title": "Bases de datos",
+            "text": "PostgreSQL administrado, con SSL, límites de recursos y respaldo diario."
+         },
+         "fullstack": {
+            "title": "Proyectos completos",
+            "text": "Docker Compose con API, frontend y base de datos juntos, en red privada."
+         }
       }
-    }
-  },
-  "services": {
-    "eyebrow": "Servicios",
-    "heading": "¿Qué incluye el servicio?",
-    "subtitle": "Todo lo que hacemos por ti, de principio a fin, para que tu página web esté lista y funcionando.",
-    "items": {
-      "palette": {
-        "title": "Diseño y desarrollo",
-        "text": "Diseño a la medida de tu negocio, responsive y optimizado para convertir visitas en clientes."
-      },
-      "globe": {
-        "title": "Dominio y hosting",
-        "text": "Configuramos tu hosting y SSL. El dominio se compra aparte, pero te asesoramos en todo el proceso de compra y conexión."
-      },
-      "gauge": {
-        "title": "Velocidad y SEO básico",
-        "text": "Imágenes optimizadas, carga rápida y buenas prácticas de SEO para que te encuentren en Google."
-      },
-      "share2": {
-        "title": "Integraciones",
-        "text": "Botón de WhatsApp, redes sociales y formularios de contacto conectados y listos para usarse."
-      },
-      "wrench": {
-        "title": "Mantenimiento",
-        "text": "Actualizaciones, respaldos periódicos y soporte directo conmigo cuando lo necesites."
-      },
-      "rocket": {
-        "title": "Proceso cercano",
-        "text": "Vamos de la idea al sitio publicado revisando cada sección contigo, con acompañamiento en cada paso."
+   },
+   "howItWorks": {
+      "eyebrow": "Cómo funciona",
+      "heading": "De tu repositorio a producción en 3 pasos",
+      "note": "¿Tu dominio está en Cloudflare? Podemos publicar tu proyecto con Cloudflare Tunnel, sin abrir puertos.",
+      "steps": {
+         "connect": {
+            "title": "Conecta tu repositorio de GitHub",
+            "text": "O envíanos tu Docker Compose."
+         },
+         "configure": {
+            "title": "Nosotros configuramos todo",
+            "text": "Dominio, SSL, base de datos, variables y respaldos."
+         },
+         "push": {
+            "title": "Haz push y listo",
+            "text": "Cada cambio en tu rama principal se publica automáticamente."
+         }
       }
-    }
-  },
-  "about": {
-    "heading": "¿Por qué trabajar conmigo?",
-    "points": {
-      "delivery": { "title": "Entrega realista", "text": "Sitios listos en semanas, con tiempo real para hacerlo bien." },
-      "tech": { "title": "Tecnología moderna", "text": "Next.js, hosting propio, sin depender de terceros." },
-      "support": { "title": "Soporte real", "text": "Contacto directo conmigo, sin tickets ni esperas." },
-      "handmade": {
-        "title": "Hecho contigo, no en automático",
-        "text": "Platicamos tu idea, ajustamos el diseño contigo y revisamos cada sección antes de publicarla. Por eso los tiempos son de semanas: no es una plantilla armada sola, es tu sitio hecho a mano."
+   },
+   "pricingDev": {
+      "eyebrow": "Para desarrolladores",
+      "heading": "Precios claros para desarrolladores",
+      "text": "Precios en MXN, más IVA. Factura CFDI 4.0 incluida.",
+      "popularBadge": "Más popular",
+      "perMonth": "/mes",
+      "cta": "Pedir por Discord",
+      "extrasHeading": "Extras",
+      "extras": [
+         "Respaldo cada 6 horas: +$99/mes",
+         "GB extra de base de datos: +$15/mes por GB",
+         "Migración desde Vercel, Railway o cPanel: gratis",
+         "Pago anual: 2 meses gratis"
+      ],
+      "packages": {
+         "static": {
+            "name": "Sitio estático",
+            "features": [
+               "1 sitio estático (HTML, Astro, export de Next.js)",
+               "SSL incluido",
+               "Deploy automático desde GitHub",
+               "Dominio propio conectado"
+            ]
+         },
+         "webapp": {
+            "name": "Web App",
+            "features": [
+               "1 aplicación (1 contenedor)",
+               "Hasta 1 GB de RAM",
+               "Deploy automático desde GitHub",
+               "Variables de entorno y SSL"
+            ]
+         },
+         "database": {
+            "name": "Base de datos",
+            "features": [
+               "PostgreSQL administrado",
+               "1 GB de RAM, 5 GB de disco",
+               "Conexión con SSL",
+               "Respaldo diario automático (7 días de historial)"
+            ]
+         },
+         "fullstack": {
+            "name": "Stack completo",
+            "features": [
+               "Docker Compose: API + frontend + base de datos",
+               "Hasta 2 GB de RAM y 10 GB de disco",
+               "Red privada entre tus servicios",
+               "Respaldo diario de la base de datos",
+               "Ayuda con la configuración inicial"
+            ]
+         },
+         "agency": {
+            "name": "Agencia",
+            "features": [
+               "Hasta 5 stacks completos",
+               "Hasta 8 GB de RAM en total",
+               "Soporte prioritario",
+               "Ideal para agencias que hostean a varios clientes"
+            ]
+         }
       }
-    }
-  },
-  "techStack": {
-    "heading": "Tecnología en la que puedes confiar",
-    "items": {
-      "zap": { "title": "Carga rápida", "text": "Tu página abre en segundos, sin hacer esperar a tus clientes." },
-      "shield-check": { "title": "Siempre en línea", "text": "Tu sitio funciona 24/7, sin caídas ni interrupciones." },
-      "lock": { "title": "Datos protegidos", "text": "Conexión segura y respaldos para que tu información esté a salvo." }
-    }
-  },
-  "testimonials": {
-    "eyebrow": "Testimonios",
-    "heading": "Lo que dicen mis clientes",
-    "comingSoonTitle": "Próximamente",
-    "comingSoonText": "Estoy trabajando en los primeros proyectos. Muy pronto verás aquí testimonios reales de negocios locales.",
-    "items": {}
-  },
-  "cta": {
-    "heading": "¿Listo para tener una página web que trabaje por ti?",
-    "text": "Agenda una consulta gratuita de 20 minutos. Sin costo ni compromiso: platicamos tu idea y te doy una cotización personalizada.",
-    "button": "Agenda tu consulta gratis",
-    "whatsappMessage": "Hola, quiero agendar una consulta gratuita para mi proyecto web 🚀"
-  },
-  "floatingWhatsapp": {
-    "ariaLabel": "Escríbeme por WhatsApp"
-  },
-  "footer": {
-    "copyrightSuffix": "Todos los derechos reservados.",
-    "contactWhatsapp": "WhatsApp",
-    "contactEmail": "Correo"
-  }
+   },
+   "pricingBusiness": {
+      "eyebrow": "Para negocios",
+      "heading": "¿Tienes un negocio? Nosotros nos encargamos de todo",
+      "text": "Precios con IVA incluido. Factura CFDI disponible.",
+      "perMonth": "/mes",
+      "billing": "IVA incluido",
+      "name": "Hosting administrado",
+      "features": [
+         "Tu sitio hospedado y monitoreado 24/7",
+         "SSL y dominio conectado",
+         "Respaldo diario automático",
+         "Mantenimiento y actualizaciones",
+         "Cambios pequeños de contenido incluidos",
+         "Soporte directo por WhatsApp"
+      ],
+      "cta": "Contratar por WhatsApp",
+      "whatsappMessage": "Hola, me interesa el Hosting administrado",
+      "domainNote": "El dominio (tunegocio.com) se compra aparte; te asesoramos sin costo."
+   },
+   "security": {
+      "eyebrow": "Seguridad",
+      "heading": "Seguridad y respaldos, sin exagerar",
+      "points": {
+         "backups": {
+            "title": "Respaldos diarios automáticos",
+            "text": "De tus bases de datos, con 7 días de historial."
+         },
+         "ssl": {
+            "title": "SSL en todas partes",
+            "text": "En tus sitios y en la conexión a la base de datos."
+         },
+         "privateDb": {
+            "title": "Bases de datos privadas",
+            "text": "No se exponen a internet, solo tu aplicación las ve."
+         },
+         "monitoring": {
+            "title": "Monitoreo 24/7",
+            "text": "Con alertas inmediatas si algo falla."
+         }
+      }
+   },
+   "resellers": {
+      "eyebrow": "Revendedores y referidos",
+      "heading": "¿Eres desarrollador o agencia? Gana con tus clientes",
+      "highlight": "Tú cobras la mensualidad de hosting a tus clientes, nosotros nos encargamos de los servidores.",
+      "cta": "Quiero ser revendedor",
+      "cards": {
+         "referral": {
+            "title": "Referidos",
+            "text": "Recomiéndanos y gana 20% de lo que pague tu referido durante 12 meses. Para cualquier persona."
+         },
+         "reseller": {
+            "title": "Revendedor",
+            "text": "Compra a precio mayorista (30% de descuento), cobra a tus clientes lo que tú quieras y da la cara con tu marca. Nosotros administramos servidores, respaldos y te facturamos a ti."
+         }
+      }
+   },
+   "launchOffer": {
+      "title": "Clientes fundadores: los primeros 10 desarrolladores tienen el primer mes gratis y 30% de descuento de por vida.",
+      "cta": "Únete al Discord"
+   },
+   "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "heading": "Preguntas frecuentes",
+      "items": {
+         "invoice": {
+            "question": "¿Dan factura?",
+            "answer": "Sí, emitimos factura CFDI 4.0 por cada pago."
+         },
+         "requirements": {
+            "question": "¿Qué necesito para hostear mi proyecto?",
+            "answer": "Un repositorio de GitHub o un Dockerfile / Docker Compose. Probamos tu proyecto antes de activarlo para confirmar que funciona."
+         },
+         "location": {
+            "question": "¿Dónde están los servidores?",
+            "answer": "En México, con infraestructura propia administrada directamente por nosotros."
+         },
+         "incidents": {
+            "question": "¿Qué pasa si algo falla?",
+            "answer": "Tenemos monitoreo 24/7 con alertas. Si tu sitio o base de datos tiene un problema, te avisamos y lo atendemos lo antes posible."
+         },
+         "restore": {
+            "question": "¿Puedo restaurar un respaldo?",
+            "answer": "Sí, guardamos 7 días de respaldos diarios. Pídelo por Discord o WhatsApp."
+         },
+         "migration": {
+            "question": "¿Puedo migrar mi proyecto desde otro proveedor?",
+            "answer": "Sí, la migración desde Vercel, Railway o cPanel es gratis."
+         },
+         "payment": {
+            "question": "¿Cómo pago?",
+            "answer": "Transferencia SPEI o tarjeta. Pago mensual o anual (con 2 meses gratis)."
+         },
+         "cancel": {
+            "question": "¿Puedo cancelar cuando quiera?",
+            "answer": "Sí, sin plazos forzosos. Te entregamos tus archivos y un respaldo de tu base de datos."
+         }
+      }
+   },
+   "webDesign": {
+      "eyebrow": "Diseño web",
+      "heading": "¿No tienes página todavía? También la diseñamos",
+      "text": "El diseño de páginas es un servicio aparte del hosting: si necesitas que te construyamos tu sitio desde cero, también lo hacemos.",
+      "defaultCta": "Contratar por WhatsApp",
+      "whatsappMessage": "Hola, me interesa el paquete \"{name}\". ¿Me das más información? 🚀",
+      "savingsBadge": "Ahorra",
+      "packages": {
+         "landing": {
+            "name": "Landing Page",
+            "billing": "pago único, IVA incluido",
+            "features": [
+               "1 página (scroll único)",
+               "Diseño responsive (móvil y escritorio)",
+               "Botón directo a WhatsApp",
+               "Formulario de contacto simple",
+               "Entrega en 1-2 semanas"
+            ]
+         },
+         "sitio-5": {
+            "name": "Sitio Web de 5 Páginas",
+            "billing": "pago único, IVA incluido",
+            "features": [
+               "Inicio, Nosotros, Servicios, Galería/Blog, Contacto",
+               "Diseño responsive",
+               "SEO básico (títulos, descripciones)",
+               "Integración con redes sociales",
+               "Entrega en 2-4 semanas"
+            ]
+         },
+         "combo": {
+            "name": "Landing + 12 meses de hosting",
+            "billing": "pago único, IVA incluido",
+            "features": [
+               "Landing Page incluida",
+               "12 meses de Hosting administrado",
+               "Dominio conectado y SSL",
+               "Ahorra comparado con contratarlo por separado"
+            ]
+         }
+      }
+   },
+   "cta": {
+      "heading": "Publica tu proyecto esta semana",
+      "discordCta": "Únete al Discord",
+      "whatsappCta": "Escríbeme por WhatsApp",
+      "whatsappMessage": "Hola, quiero publicar mi proyecto con Kivo 🚀"
+   },
+   "floatingWhatsapp": {
+      "ariaLabel": "Escríbeme por WhatsApp"
+   },
+   "footer": {
+      "copyrightSuffix": "Todos los derechos reservados.",
+      "contactDiscord": "Discord",
+      "contactWhatsapp": "WhatsApp",
+      "contactEmail": "Correo"
+   }
 }

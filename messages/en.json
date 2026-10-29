@@ -1,165 +1,302 @@
 {
-  "meta": {
-    "title": "Kivo — Fast, modern websites for local businesses",
-    "description": "Modern design, fast loading, and reliable hosting. Websites that sell for local businesses in Mexico. Delivered in days, not months."
-  },
-  "brand": {
-    "tagline": "Fast, modern websites for local businesses"
-  },
-  "whatsapp": {
-    "defaultMessage": "Hi, I saw your page and I'd like info about my web project 🚀"
-  },
-  "nav": {
-    "links": {
-      "precios": "Pricing",
-      "servicios": "Services",
-      "beneficios": "Benefits",
-      "testimonios": "Testimonials"
-    },
-    "whatsapp": "WhatsApp",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "languageLabel": "Language",
-    "lightMode": "Switch to light mode",
-    "darkMode": "Switch to dark mode"
-  },
-  "hero": {
-    "badges": ["Fast loading", "Delivered in weeks", "Reliable hosting"],
-    "title": "Your business needs a website that sells",
-    "subtitle": "Modern design, fast loading, and reliable hosting. Your site built together with you, not from a generic template.",
-    "cta": "Talk to me on WhatsApp"
-  },
-  "pricing": {
-    "eyebrow": "Pricing",
-    "heading": "Clear plans for every kind of business",
-    "note": "All prices include tax.",
-    "domainNote": "Your domain (e.g. yourbusiness.com) is purchased separately with the provider of your choice. We'll guide you through the whole purchase and setup process at no extra cost.",
-    "popularBadge": "Most popular",
-    "freeLabel": "Free",
-    "defaultCta": "Get started on WhatsApp",
-    "whatsappMessage": "Hi, I'm interested in the \"{name}\" package. Can you tell me more? 🚀",
-    "packages": {
-      "landing": {
-        "name": "Landing Page",
-        "billing": "one-time payment, tax included",
-        "description": "Ideal for businesses that need a fast, effective online presence.",
-        "features": [
-          "1 page (single scroll)",
-          "Responsive design (mobile & desktop)",
-          "Direct WhatsApp button",
-          "Simple contact form",
-          "Delivered in 1-2 weeks"
-        ]
+   "meta": {
+      "title": "Kivo — Hosting for websites and databases in Mexico, with invoicing",
+      "description": "Host your sites, apps, and PostgreSQL databases with automatic deploys from GitHub, daily backups, billing in pesos, and CFDI invoicing."
+   },
+   "brand": {
+      "tagline": "Hosting for sites and databases, with invoicing and support in Spanish"
+   },
+   "whatsapp": {
+      "defaultMessage": "Hi, I'd like more info about Kivo's hosting 🚀"
+   },
+   "nav": {
+      "links": {
+         "hosting": "Hosting",
+         "precios": "Pricing",
+         "como-funciona": "How it works",
+         "revendedores": "Resellers",
+         "preguntas": "FAQ",
+         "diseno-web": "Web design"
       },
-      "sitio-5": {
-        "name": "5-Page Website",
-        "billing": "one-time payment, tax included",
-        "description": "For businesses that want to show it all: services, story, and contact.",
-        "features": [
-          "Home, About, Services, Gallery/Blog, Contact",
-          "Responsive design",
-          "Basic SEO (titles, descriptions)",
-          "Social media integration",
-          "Delivered in 2-4 weeks"
-        ]
-      },
-      "hosting": {
-        "name": "Monthly Hosting",
-        "billing": "per month, tax included",
-        "description": "Your site always online, secure, up to date, with maintenance included.",
-        "features": [
-          "Hosting on our own server (high availability)",
-          "SSL certificate included",
-          "Domain connected",
-          "Maintenance and updates included",
-          "Monthly backup",
-          "Direct support via WhatsApp"
-        ]
-      },
-      "cita": {
-        "name": "Book a Call",
-        "billing": "free consultation",
-        "description": "Have a bigger project or a different idea in mind? Let's talk.",
-        "features": [
-          "20-minute call",
-          "Project assessment",
-          "Personalized quote",
-          "No cost, no commitment"
-        ],
-        "ctaOverride": "Book a call on WhatsApp"
+      "discordCta": "Join our Discord",
+      "whatsappCta": "WhatsApp",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "languageLabel": "Language",
+      "lightMode": "Switch to light mode",
+      "darkMode": "Switch to dark mode"
+   },
+   "hero": {
+      "badges": [
+         "Automatic deploys from GitHub",
+         "Daily backups",
+         "CFDI 4.0 invoicing",
+         "Support in Spanish"
+      ],
+      "title": "Host your sites and databases without fighting servers",
+      "subtitle": "Push to GitHub and your project publishes itself. Databases with daily backups, SSL included, billing in pesos, and CFDI invoicing.",
+      "ctaDev": "I'm a developer",
+      "ctaBusiness": "I have a business"
+   },
+   "hostingTypes": {
+      "eyebrow": "What you can host",
+      "heading": "Host whatever you're building",
+      "subtitle": "From a static site to a full stack with a database: you pick what you need.",
+      "items": {
+         "sites": {
+            "title": "Websites",
+            "text": "Landing pages, portfolios, and static sites (HTML, Astro, Next.js)."
+         },
+         "apps": {
+            "title": "Applications",
+            "text": "Next.js, Node, Bun, Laravel, Python, or any project with a Dockerfile."
+         },
+         "database": {
+            "title": "Databases",
+            "text": "Managed PostgreSQL, with SSL, resource limits, and daily backups."
+         },
+         "fullstack": {
+            "title": "Full projects",
+            "text": "Docker Compose with API, frontend, and database together, on a private network."
+         }
       }
-    }
-  },
-  "services": {
-    "eyebrow": "Services",
-    "heading": "What's included in the service?",
-    "subtitle": "Everything we do for you, from start to finish, so your website is ready and running.",
-    "items": {
-      "palette": {
-        "title": "Design and development",
-        "text": "Design tailored to your business, responsive and optimized to turn visitors into customers."
-      },
-      "globe": {
-        "title": "Domain and hosting",
-        "text": "We set up your hosting and SSL. The domain is purchased separately, but we guide you through the whole purchase and setup process."
-      },
-      "gauge": {
-        "title": "Speed and basic SEO",
-        "text": "Optimized images, fast loading, and good SEO practices so people can find you on Google."
-      },
-      "share2": {
-        "title": "Integrations",
-        "text": "WhatsApp button, social media, and contact forms connected and ready to use."
-      },
-      "wrench": {
-        "title": "Maintenance",
-        "text": "Updates, regular backups, and direct support with me whenever you need it."
-      },
-      "rocket": {
-        "title": "Hands-on process",
-        "text": "We go from idea to published site reviewing every section together with you, with support at every step."
+   },
+   "howItWorks": {
+      "eyebrow": "How it works",
+      "heading": "From your repository to production in 3 steps",
+      "note": "Is your domain on Cloudflare? We can publish your project with Cloudflare Tunnel, without opening any ports.",
+      "steps": {
+         "connect": {
+            "title": "Connect your GitHub repository",
+            "text": "Or send us your Docker Compose."
+         },
+         "configure": {
+            "title": "We set everything up",
+            "text": "Domain, SSL, database, variables, and backups."
+         },
+         "push": {
+            "title": "Push and you're done",
+            "text": "Every change on your main branch publishes automatically."
+         }
       }
-    }
-  },
-  "about": {
-    "heading": "Why work with me?",
-    "points": {
-      "delivery": { "title": "Realistic delivery", "text": "Sites ready in weeks, with real time to do it right." },
-      "tech": { "title": "Modern technology", "text": "Next.js, our own hosting, no third-party dependency." },
-      "support": { "title": "Real support", "text": "Direct contact with me, no tickets, no waiting." },
-      "handmade": {
-        "title": "Built with you, not on autopilot",
-        "text": "We talk through your idea, adjust the design together, and review every section before publishing. That's why it takes weeks: it's not a template thrown together, it's your site made by hand."
+   },
+   "pricingDev": {
+      "eyebrow": "For developers",
+      "heading": "Clear pricing for developers",
+      "text": "Prices in MXN, plus tax. CFDI 4.0 invoicing included.",
+      "popularBadge": "Most popular",
+      "perMonth": "/mo",
+      "cta": "Order on Discord",
+      "extrasHeading": "Extras",
+      "extras": [
+         "Backup every 6 hours: +$99/mo",
+         "Extra database GB: +$15/mo per GB",
+         "Migration from Vercel, Railway, or cPanel: free",
+         "Annual billing: 2 months free"
+      ],
+      "packages": {
+         "static": {
+            "name": "Static site",
+            "features": [
+               "1 static site (HTML, Astro, Next.js export)",
+               "SSL included",
+               "Automatic deploys from GitHub",
+               "Your own domain connected"
+            ]
+         },
+         "webapp": {
+            "name": "Web App",
+            "features": [
+               "1 application (1 container)",
+               "Up to 1 GB of RAM",
+               "Automatic deploys from GitHub",
+               "Environment variables and SSL"
+            ]
+         },
+         "database": {
+            "name": "Database",
+            "features": [
+               "Managed PostgreSQL",
+               "1 GB RAM, 5 GB disk",
+               "SSL connection",
+               "Automatic daily backup (7-day history)"
+            ]
+         },
+         "fullstack": {
+            "name": "Full stack",
+            "features": [
+               "Docker Compose: API + frontend + database",
+               "Up to 2 GB RAM and 10 GB disk",
+               "Private network between your services",
+               "Daily database backup",
+               "Help with initial setup"
+            ]
+         },
+         "agency": {
+            "name": "Agency",
+            "features": [
+               "Up to 5 full stacks",
+               "Up to 8 GB RAM in total",
+               "Priority support",
+               "Ideal for agencies hosting several clients"
+            ]
+         }
       }
-    }
-  },
-  "techStack": {
-    "heading": "Technology you can trust",
-    "items": {
-      "zap": { "title": "Fast loading", "text": "Your page opens in seconds, without keeping your customers waiting." },
-      "shield-check": { "title": "Always online", "text": "Your site runs 24/7, with no downtime or interruptions." },
-      "lock": { "title": "Protected data", "text": "Secure connection and backups to keep your information safe." }
-    }
-  },
-  "testimonials": {
-    "eyebrow": "Testimonials",
-    "heading": "What my clients say",
-    "comingSoonTitle": "Coming soon",
-    "comingSoonText": "I'm working on the first projects. Real testimonials from local businesses will show up here soon.",
-    "items": {}
-  },
-  "cta": {
-    "heading": "Ready for a website that works for you?",
-    "text": "Book a free 20-minute consultation. No cost, no commitment: we'll talk through your idea and I'll give you a personalized quote.",
-    "button": "Book your free consultation",
-    "whatsappMessage": "Hi, I'd like to book a free consultation for my web project 🚀"
-  },
-  "floatingWhatsapp": {
-    "ariaLabel": "Message me on WhatsApp"
-  },
-  "footer": {
-    "copyrightSuffix": "All rights reserved.",
-    "contactWhatsapp": "WhatsApp",
-    "contactEmail": "Email"
-  }
+   },
+   "pricingBusiness": {
+      "eyebrow": "For businesses",
+      "heading": "Have a business? We'll take care of everything",
+      "text": "Prices include tax. CFDI invoicing available.",
+      "perMonth": "/mo",
+      "billing": "tax included",
+      "name": "Managed hosting",
+      "features": [
+         "Your site hosted and monitored 24/7",
+         "SSL and domain connected",
+         "Automatic daily backup",
+         "Maintenance and updates",
+         "Small content changes included",
+         "Direct support via WhatsApp"
+      ],
+      "cta": "Get started on WhatsApp",
+      "whatsappMessage": "Hi, I'm interested in Managed hosting",
+      "domainNote": "The domain (yourbusiness.com) is purchased separately; we'll guide you at no cost."
+   },
+   "security": {
+      "eyebrow": "Security",
+      "heading": "Security and backups, without the hype",
+      "points": {
+         "backups": {
+            "title": "Automatic daily backups",
+            "text": "Of your databases, with 7 days of history."
+         },
+         "ssl": {
+            "title": "SSL everywhere",
+            "text": "On your sites and on the database connection."
+         },
+         "privateDb": {
+            "title": "Private databases",
+            "text": "Never exposed to the internet, only your app can see them."
+         },
+         "monitoring": {
+            "title": "24/7 monitoring",
+            "text": "With immediate alerts if something fails."
+         }
+      }
+   },
+   "resellers": {
+      "eyebrow": "Resellers and referrals",
+      "heading": "Developer or agency? Earn from your clients",
+      "highlight": "You charge your clients the hosting fee, we take care of the servers.",
+      "cta": "I want to become a reseller",
+      "cards": {
+         "referral": {
+            "title": "Referrals",
+            "text": "Refer us and earn 20% of what your referral pays for 12 months. Open to anyone."
+         },
+         "reseller": {
+            "title": "Reseller",
+            "text": "Buy at wholesale price (30% off), charge your clients whatever you want, and put your own brand on it. We manage the servers, the backups, and invoice you."
+         }
+      }
+   },
+   "launchOffer": {
+      "title": "Founding clients: the first 10 developers get their first month free and 30% off for life.",
+      "cta": "Join our Discord"
+   },
+   "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Frequently asked questions",
+      "items": {
+         "invoice": {
+            "question": "Do you provide invoices?",
+            "answer": "Yes, we issue CFDI 4.0 invoices for every payment."
+         },
+         "requirements": {
+            "question": "What do I need to host my project?",
+            "answer": "A GitHub repository or a Dockerfile / Docker Compose. We test your project before activating it to confirm it works."
+         },
+         "location": {
+            "question": "Where are the servers?",
+            "answer": "In Mexico, on our own infrastructure, managed directly by us."
+         },
+         "incidents": {
+            "question": "What happens if something fails?",
+            "answer": "We have 24/7 monitoring with alerts. If your site or database has an issue, we'll let you know and fix it as soon as possible."
+         },
+         "restore": {
+            "question": "Can I restore a backup?",
+            "answer": "Yes, we keep 7 days of daily backups. Ask for it on Discord or WhatsApp."
+         },
+         "migration": {
+            "question": "Can I migrate my project from another provider?",
+            "answer": "Yes, migration from Vercel, Railway, or cPanel is free."
+         },
+         "payment": {
+            "question": "How do I pay?",
+            "answer": "SPEI transfer or card. Monthly or annual billing (with 2 months free)."
+         },
+         "cancel": {
+            "question": "Can I cancel anytime?",
+            "answer": "Yes, no forced terms. We'll hand over your files and a backup of your database."
+         }
+      }
+   },
+   "webDesign": {
+      "eyebrow": "Web design",
+      "heading": "No website yet? We design those too",
+      "text": "Web design is a separate service from hosting: if you need us to build your site from scratch, we do that too.",
+      "defaultCta": "Get started on WhatsApp",
+      "whatsappMessage": "Hi, I'm interested in the \"{name}\" package. Can you tell me more? 🚀",
+      "savingsBadge": "Save",
+      "packages": {
+         "landing": {
+            "name": "Landing Page",
+            "billing": "one-time payment, tax included",
+            "features": [
+               "1 page (single scroll)",
+               "Responsive design (mobile & desktop)",
+               "Direct WhatsApp button",
+               "Simple contact form",
+               "Delivered in 1-2 weeks"
+            ]
+         },
+         "sitio-5": {
+            "name": "5-Page Website",
+            "billing": "one-time payment, tax included",
+            "features": [
+               "Home, About, Services, Gallery/Blog, Contact",
+               "Responsive design",
+               "Basic SEO (titles, descriptions)",
+               "Social media integration",
+               "Delivered in 2-4 weeks"
+            ]
+         },
+         "combo": {
+            "name": "Landing + 12 months of hosting",
+            "billing": "one-time payment, tax included",
+            "features": [
+               "Landing Page included",
+               "12 months of Managed hosting",
+               "Domain connected and SSL",
+               "Cheaper than buying them separately"
+            ]
+         }
+      }
+   },
+   "cta": {
+      "heading": "Publish your project this week",
+      "discordCta": "Join our Discord",
+      "whatsappCta": "Message me on WhatsApp",
+      "whatsappMessage": "Hi, I want to publish my project with Kivo 🚀"
+   },
+   "floatingWhatsapp": {
+      "ariaLabel": "Message me on WhatsApp"
+   },
+   "footer": {
+      "copyrightSuffix": "All rights reserved.",
+      "contactDiscord": "Discord",
+      "contactWhatsapp": "WhatsApp",
+      "contactEmail": "Email"
+   }
 }

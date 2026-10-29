@@ -1,37 +1,42 @@
-import { setRequestLocale } from "next-intl/server"
-import { Navbar } from "@/components/navbar"
-import { Hero } from "@/components/hero"
-import { PricingSection } from "@/components/pricing-section"
-import { ServicesSection } from "@/components/services-section"
-import { AboutSection } from "@/components/about-section"
-import { Testimonials } from "@/components/testimonials"
-import { CTABanner } from "@/components/cta-banner"
-import { TechTrust } from "@/components/tech-trust"
-import { Footer } from "@/components/footer"
-import { FloatingWhatsApp } from "@/components/floating-whatsapp"
+// Server
+import { setRequestLocale } from 'next-intl/server';
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ locale: string }>
-}) {
-  const { locale } = await params
-  setRequestLocale(locale)
+// Components
+import { Navbar } from '@/components/navbar';
+import { Hero } from '@/components/hero';
+import { HostingTypesSection } from '@/components/hosting-types-section';
+import { HowItWorksSection } from '@/components/how-it-works-section';
+import { PricingSection } from '@/components/pricing-section';
+import { SecuritySection } from '@/components/security-section';
+import { ResellersSection } from '@/components/resellers-section';
+import { LaunchOfferBanner } from '@/components/launch-offer-banner';
+import { FaqSection } from '@/components/faq-section';
+import { WebDesignSection } from '@/components/web-design-section';
+import { CTABanner } from '@/components/cta-banner';
+import { Footer } from '@/components/footer';
+import { FloatingWhatsApp } from '@/components/floating-whatsapp';
 
-  return (
-    <>
-      <Navbar />
-      <main>
-        <Hero />
-        <PricingSection />
-        <ServicesSection />
-        <AboutSection />
-        <Testimonials />
-        <CTABanner />
-        <TechTrust />
-      </main>
-      <Footer />
-      <FloatingWhatsApp />
-    </>
-  )
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+   const { locale } = await params;
+   setRequestLocale(locale);
+
+   return (
+      <>
+         <Navbar />
+         <main>
+            <Hero />
+            <HostingTypesSection />
+            <HowItWorksSection />
+            <PricingSection />
+            <SecuritySection />
+            <ResellersSection />
+            <LaunchOfferBanner />
+            <FaqSection />
+            <WebDesignSection />
+            <CTABanner />
+         </main>
+         <Footer />
+         <FloatingWhatsApp />
+      </>
+   );
 }
