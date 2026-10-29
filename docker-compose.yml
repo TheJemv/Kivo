@@ -10,10 +10,3 @@ services:
       timeout: 3s
       retries: 10
       start_period: 10s
-
-  cloudflared:
-    image: cloudflare/cloudflared:latest
-    restart: unless-stopped
-    command: tunnel run
-    env_file:
-      - .env
